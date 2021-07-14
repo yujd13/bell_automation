@@ -1,0 +1,123 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Security Role">
+
+    <test name="Test Roles BASIC">
+        <parameter name="securityRole" value="BSH Basic"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles INSIDE SALES">
+        <parameter name="securityRole" value="BSH Inside Sales Agent"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles COLLECTIONS">
+        <parameter name="securityRole" value="BSH Collections"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles CONTROL CENTRE">
+        <parameter name="securityRole" value="BSH Control Centre"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+    <test name="Test Roles VendorManagement">
+        <parameter name="securityRole" value="BSH VendorManagement-C"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Operation Supervisor">
+        <parameter name="securityRole" value="BSH Operation Supervisor"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Shipping">
+        <parameter name="securityRole" value="BSH Shipping"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Service Technician">
+        <parameter name="securityRole" value="BSH Service Technician"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Sales Supervisor">
+        <parameter name="securityRole" value="BSH Sales Supervisor"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles RFMs">
+        <parameter name="securityRole" value="BSH RFMs"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Processing Team">
+        <parameter name="securityRole" value="BSH Processing Team"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Processing Manager">
+        <parameter name="securityRole" value="BSH Processing Manager"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Operation Agent-CCare">
+        <parameter name="securityRole" value="BSH Operation Agent-CCare"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Operation Agent-L+R">
+        <parameter name="securityRole" value="BSH Operation Agent-L+R"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles Operation Agent-TechSup">
+        <parameter name="securityRole" value="BSH Operation Agent-TechSup"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles IT">
+        <parameter name="securityRole" value="BSH IT"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Roles BSH CMS">
+        <parameter name="securityRole" value="BSH CMS"/>
+        <classes>
+            <class name="com.elecsoft.test.SecurityRoleTest"/>
+        </classes>
+    </test>
+
+</suite>

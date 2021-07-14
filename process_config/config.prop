@@ -1,0 +1,37 @@
+#Thu Aug 13 11:04:01 EDT 2020
+
+#Chrome Driver Setup
+WEB_DRIVER_PATH=c://cd/chromedriver.exe
+BROWSER=webdriver.chrome.driver
+
+#Login Credentials
+#USER_NAME=jtesting@bellcanada.com
+USER_NAME=wtesting@bellcanada.com
+
+#PASSWORD=Judtes01!
+PASSWORD=BSHCGI01!
+
+#File
+DATA_SEED_FILE=./assets/orders.xlsx
+
+#Environment
+ENVIRONMENT_URL=https://bsh-qa-3.crm3.dynamics.com/main.aspx?appid=0ae14cf9-42ae-ea11-a812-000d3a0c8127&pagetype=entityrecord&etn=lead
+NEW_LEAD_PAGE_URL=https://bsh-qa-3.crm3.dynamics.com/main.aspx?appid=0ae14cf9-42ae-ea11-a812-000d3a0c8127&pagetype=entityrecord&etn=lead
+
+#ENVIRONMENT_URL=https://bsh-qa-2.crm3.dynamics.com/main.aspx?appid=0ae14cf9-42ae-ea11-a812-000d3a0c8127&pagetype=entityrecord&etn=lead
+#NEW_LEAD_PAGE_URL=https://bsh-qa-2.crm3.dynamics.com/main.aspx?appid=0ae14cf9-42ae-ea11-a812-000d3a0c8127&pagetype=entityrecord&etn=lead
+
+#NEW_LEAD_PAGE_URL=https://bsh-staging.crm3.dynamics.com/main.aspx?appid=b8add700-e35c-eb11-a812-000d3a09c0d3&pagetype=entityrecord&etn=lead
+#ENVIRONMENT_URL=https://bsh-qa-2.crm3.dynamics.com/main.aspx?appid=0ae14cf9-42ae-ea11-a812-000d3a0c8127&pagetype=entityrecord&etn=lead
+
+#NEW_LEAD_PAGE_URL=https://bsh-qa.crm3.dynamics.com/main.aspx?appid=0ae14cf9-42ae-ea11-a812-000d3a0c8127&pagetype=entityrecord&etn=lead
+
+
+#system configurations
+DEFAULT_THREAD_SLEEP=1000
+DEFAULT_WAIT_TIME=10
+DEFAULT_PAGE_LOAD_TIMES=30
+DEFAULT_WAIT_ATTEMPTS=10
+
+
+

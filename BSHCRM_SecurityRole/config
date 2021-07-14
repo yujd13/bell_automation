@@ -1,0 +1,9 @@
+# Test File
+ervfilePath=C:\\project\\ProductCatalogue\\src\\main\\resources\\PC\\TestData\\Product_Offerings_Master_List.xlsx
+priceList=C:\\project\\ProductCatalogue\\src\\main\\resources\\PC\\TestData\\Price_List_Items.xlsx
+sbnFile=C:\\project\\ProductCatalogue\\src\\main\\resources\\PC\\TestData\\SBN_items.xlsx
+productRelationship=C:\\project\\ProductCatalogue\\src\\main\\resources\\PC\\TestData\\Product_Relationship.xlsx
+
+##Security Role Test File
+SecurityRoleQA3=./src/main/resources/PC/TestData/QA3_SecurityRoles.xlsx
+It2SecurityRoleBSH=./src/main/resources/PC/TestData/BSH-Iteration2_Security_Roles.xlsx

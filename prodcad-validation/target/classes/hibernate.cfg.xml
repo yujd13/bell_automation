@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<!-- Version 8 MySQL hiberante-cfg.xml example for Hibernate 5 -->
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<!--         property name="connection.driver_class">com.mysql.jdbc.Driver</property-->
+        <property name="connection.url">jdbc:mysql://localhost/product_cat_2</property>
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+
+<!--        <property name="connection.url">jdbc:microsoft:sqlserver://XX.XX.XXX.XX:YYYY/BshES-DM</property>-->
+<!--        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>-->
+<!--        <property name="connection.username">electsoft</property>-->
+<!--        <property name="connection.password">Troop50tow35Cairn</property>-->
+<!--        <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>-->
+
+
+
+
+        <property name="connection.username">root</property>
+        <property name="connection.password">password</property>
+        <property name="connection.pool_size">3</property>
+        <!--property name="dialect">org.hibernate.dialect.MySQLDialect</property-->
+        <property name="current_session_context_class">thread</property>
+        <property name="show_sql">false</property>
+        <property name="format_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
+        <!-- mapping class="com.mcnz.jpa.examples.Player" / -->
+
+
+
+
+<!--        <mapping class="ca.elecsoft.datamigration.model.ServiceLocation"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.ZoneADC"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.LegacyZone"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.CustomerAsset"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.ProdDrop"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.Contract"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.Account"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.Contact"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.CustomerAssetDetails"/>-->
+<!--        <mapping class="ca.elecsoft.datamigration.model.Panel"/>-->
+
+
+                <mapping class="ca.elecsoft.model.version.twozerothreeE.ProdCadEVersionE"/>
+        <mapping class="ca.elecsoft.model.version.twozerothreeE.ProdCadAVersionE"/>
+<!--        <mapping class="ca.elecsoft.model.version.twozerothreeE.ProdCadAVersionE"/>-->
+
+
+
+    </session-factory>
+</hibernate-configuration>

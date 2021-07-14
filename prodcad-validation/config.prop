@@ -1,0 +1,15 @@
+#Thu Aug 13 11:04:01 EDT 2020
+
+
+#File
+ACTUAL_FILE=./assets/Product_Actual201.xlsx
+EXPECTED_FILE=./assets/204bE.xlsx
+
+#system configurations
+DEFAULT_THREAD_SLEEP=1000
+DEFAULT_WAIT_TIME=10
+DEFAULT_PAGE_LOAD_TIMES=30
+DEFAULT_WAIT_ATTEMPTS=10
+
+
+

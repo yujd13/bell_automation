@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">140,955</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">ca.elecsoft.seeding.SeedQA3</td><td><a href="#m0">seedOrder</a></td><td rowspan="2">1623352712511</td><td rowspan="2">76999</td></tr><tr class="failedeven"><td><a href="#m1">seedOrder</a></td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">ca.elecsoft.seeding.SeedQA3#seedOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>DataSeedModel{requestType=&apos;Residential&apos;, workOrderType=&apos;Provisioning&apos;, workOrderSubType=&apos;Install - Wireless / Installation - Sans fil&apos;, serviceLocationtype=&apos;Security&apos;, province=&apos;ON&apos;, bundle=&apos;QGDAUTO&apos;, includedChoice=&apos;NA&apos;, addtionalItem=[], promotions=[], postalCode=&apos;M4V1C7&apos;, paymentMethod=&apos;Debit&apos;}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Fail to load Public Key}
+  (Session info: chrome=91.0.4472.101): Fail to load Public Key
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-Q49L3C5V', ip: '10.10.2.142', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Jonathan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49435}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423d7229bbab950d4a671c68770a09e9</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: did not expect [error] but found [error]
+	at ca.elecsoft.seeding.SeedQA3.seedOrder(SeedQA3.java:65)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at ca.elecsoft.seeding.MainSeed.main(MainSeed.java:16)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ca.elecsoft.seeding.SeedQA3#seedOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>DataSeedModel{requestType=&apos;Residential&apos;, workOrderType=&apos;Provisioning&apos;, workOrderSubType=&apos;Install - Wireless / Installation - Sans fil&apos;, serviceLocationtype=&apos;Security&apos;, province=&apos;ON&apos;, bundle=&apos;Q-GOOD&apos;, includedChoice=&apos;NA&apos;, addtionalItem=[], promotions=[], postalCode=&apos;M4V1C7&apos;, paymentMethod=&apos;Debit&apos;}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //select[@aria-label="Service Location Type"] (tried for 20 second(s) with 500 milliseconds interval)</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: did not expect [error] but found [error]
+	at ca.elecsoft.seeding.SeedQA3.seedOrder(SeedQA3.java:65)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at ca.elecsoft.seeding.MainSeed.main(MainSeed.java:16)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
